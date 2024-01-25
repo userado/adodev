@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<title>Getting system info about user</title>  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+    </script> 
+  
+    <script> 
+        /* Add "https://api.ipify.org?format=json" statement 
+           this will communicate with the ipify servers in 
+           order to retrieve the IP address $.getJSON will 
+           load JSON-encoded data from the server using a 
+           GET HTTP request */ 
+        $.getJSON("https://api.ipify.org?format=json", 
+                                          function(data) { 
+            // Setting text of element P with id gfg 
+            $("#gfg").html(data.ip); 
+        }) 
+    </script> 
+	
+	<style>
+	html {
+  background-color: rgb(0, 0, 0);
+  color: rgb(242, 242, 242);
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: "Lucida Console", Courier, monospace;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+h1, h2, h3, b {
+color: #00af0f;
+}
+
+	</style>
+
+</head> 
+
+<body>
+<center> 
+
+	<p><b>Public IP Address of user is: </b></p>
+  <p id="gfg"></p> 
+   
+<button onclick="getlocation()">Find my location (Note: This can put in danger your privacy!)</button>
+   
+<div id="location"></div>
+<script>
+	var x= document.getElementById("location");
+    function getlocation() {
+    	if(navigator.geolocation){
+    		navigator.geolocation.getCurrentPosition(showPosition)
+    	  }
+    	else
+    	{
+             alert("Sorry! your browser is not supporting")
+         } }
+     
+     function showPosition(position){
+       var x = "Your current location is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " +    position.coords.longitude + ")";
+                document.getElementById("location").innerHTML = x;
+     }
+</script>
+<p></p>
+
+<script type="text/javascript">
+document.write("<b>OS info: </b>");
+ var OS_Name = navigator.appVersion;
+if (OS_Name.indexOf("Win") != -1) {
+document.write("Windows Operating System ");
+} else if (OS_Name.indexOf("Mac") != -1) {
+document.write("Mac Operating System ");
+} else if (OS_Name.indexOf("X11") != -1) {
+document.write("Unix Operating System ");
+} else if (OS_Name.indexOf("Linux") != -1) {
+document.write("Linux Operating System ");
+} else if (OS_Name.indexOf("SunOS") != -1) {
+document.write("Solaris Operating System ");
+} else {
+document.write("Unknown Operation System ");
+}
+document.write("<br><br> ");
+</script>
+
+<script language="javascript" type="text/javascript">
+var StrDummy = navigator.appVersion;
+strVersion = StrDummy.substring(0,4);
+
+document.write("<b>Browser info: </b>");
+document.write(navigator.userAgent); 
+document.write("<br><br> ");
+
+document.write("<b>Pages Viewed: </b>");
+document.write(history.length);
+document.write("<br><br> ");
+
+document.write("<b>Color depth: </b>");
+document.write(window.screen.colorDepth);
+document.write("<br><br> ");
+
+document.write("<b>Browser language: </b>");
+document.write(navigator.language);
+document.write("<br><br> ");
+
+document.write("<b>Screen Width: </b>");
+document.write(screen.width);
+document.write("<br><br> ");
+
+document.write("<b>Screen Height: </b>");
+document.write(screen.height);
+document.write("<br><br> ");
+
+</script> 
+
+<button onclick="window.print()">Print this page</button>
+</center>
+
+</body>
+</html>
