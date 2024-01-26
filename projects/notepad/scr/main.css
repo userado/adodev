@@ -40,15 +40,6 @@ input[type=button]{
   cursor: pointer;
 }
 
-.notice{
-  text-align: center;
-  border: 2px solid;
-  border-radius: 12px;
-  border-color: #059c00;
-  border-width: auto;
-  color: #fff;
-}
-
 .dw_button 
 {
   background-color: #059c00; 
@@ -74,34 +65,3 @@ color: white;
 h1, h2, h3 {
 color: #059c00;
 }
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid #059c00;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/* Create three equal columns that floats next to each other */
-
-.column {
-  float: left;
-  width: 320px;
-  padding: 10px;
-  height: auto; /* Should be removed. Only for demonstration */
-  text-align: center;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* Create three equal columns that floats next to each other */
