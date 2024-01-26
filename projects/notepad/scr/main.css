@@ -1,0 +1,107 @@
+*{
+box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    line-height: 1.4;
+    font-family: Georgia, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div {
+padding: 10px;
+background-color: rgb(0, 0, 0);;
+overflow: hidden;
+}
+            
+input[type=text], textarea, select {
+font: 17px Calibri;
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+        
+input[type=button]{ 
+  background-color: #059c00; 
+  border: 2px solid #059c00;
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.notice{
+  text-align: center;
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: #059c00;
+  border-width: auto;
+  color: #fff;
+}
+
+.dw_button 
+{
+  background-color: #059c00; 
+  border: 2px solid #059c00;
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a:link {
+color: white;
+}
+a:visited {
+color: white;
+}
+
+h1, h2, h3 {
+color: #059c00;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #059c00;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 320px;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create three equal columns that floats next to each other */

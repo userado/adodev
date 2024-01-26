@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>KBL Notepad</title>
+<meta name="description" content="Online notepad with virtual keyboard, saving and text copy options.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="src/index.css">
+<link rel="stylesheet" href="src/keyboard.css">
+<link rel="stylesheet" href="src/main.css">
+<script src="src/copy.js"></script>
+<script src="src/txt.js"></script>
+
+</head>
+<body>
+
+<center><h1>Simple JavaScript Notepad</h1></center>
+        
+<!--This is input form-->  
+<div>
+<textarea class="input" id="msg" name="msg" placeholder="Write some message ..." style="height:100px"></textarea>
+</div>
+<!--This is input form-->
+
+<!--This is keyboard-->
+<div class="simple-keyboard"></div>
+<script src="src/index.js"></script>
+<script src="src/keyboard.js"></script>
+<!--This is keyboard-->
+
+<!--Copy and save options-->
+<div>
+<input type="button" id="bt" value="Save data as .txt file" onclick="saveFile()" />
+</div>
+
+<div>
+<input type="button" id="bt" value="Copy data" onclick="myFunction()" />
+</div>
+<!--Copy and save options-->
+
+</body>
+</html>
