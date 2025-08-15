@@ -69,9 +69,6 @@ p::before {
 }
 
 footer {
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #111;
     border-top: 2px solid #0F0;
@@ -92,3 +89,4 @@ a.footer-link {
 a.footer-link:hover {
     border-bottom: 1px solid #0F0;
 }
+
