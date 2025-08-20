@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	
+<url>
+  <loc>https://userado.github.io/adodev/index.html</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/portfolio.html</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/contact.html</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/blog.html</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/Certificate_Java_Programing.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/Common_ICS_Components.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/ICS_US_Homeland_Security.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/intro_to_risk_v.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/linuxfoundation_cybersec_essen.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/software_engineer_intern%20certificate.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/certs/sql_advanced%20certificate.pdf</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/projects/getsysteminfo.html</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://userado.github.io/adodev/Collection-of-Best-Sites-I-ve-Ever-Seen-on-the-WWW.html</loc>
+  <lastmod>2025-08-20T07:09:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
