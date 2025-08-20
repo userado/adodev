@@ -52,22 +52,6 @@ p {
     position: relative;
 }
 
-p::before {
-    content: '|';
-    position: absolute;
-    left: 0;
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    from, to {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-
 footer {
     width: 100%;
     background-color: #111;
@@ -89,3 +73,4 @@ a.footer-link {
 a.footer-link:hover {
     border-bottom: 1px solid #0F0;
 }
+
