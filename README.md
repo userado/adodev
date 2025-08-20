@@ -6,13 +6,10 @@ This is my personal portfolio site where I share the projects I've built, the sk
 - JavaScript
 - GitHub Pages
 
-### 🧠 Inspiration
-
-```markdown
-## Inspiration
+## 🧠 Inspiration
 I built this site to have a digital home for my work and ideas. It’s a space that grows with me.
 
-- ## Getting Started
+## Getting Started
 This site is hosted on GitHub Pages. To run it locally:
 
 ```bash
